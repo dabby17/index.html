@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOVE SITE</title>
+    <style>
+        /* Reset some default styling */
+        body, h1, h2, p, ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: deeppink;
+            color: purple;
+            padding: 15px 15px;
+            text-align: center;
+            font-family: verdana
+        }
+img{
+  width:200px;
+height:200px;
+margin: auto;
+display:block;
+border-radius: 10px;
+}
+
+        .container {
+            display: flex;
+            margin: 20px;
+        }
+
+        nav.sidebar {
+            background: blanchedalmond;
+            color: powderblue;
+            padding: 30px;
+            width: 500px;
+        }
+
+        nav.sidebar ul {
+            padding: 10px;
+display:inline;
+        }
+
+        nav.sidebar ul li {
+            margin: 0 10px;
+display:inline;
+        }
+
+        nav.sidebar ul li a {
+            color: midnightblue ;
+            text-decoration: radial-gradient;
+display: inline;
+        }
+
+        nav.sidebar ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            flex: 1;
+            background: indianred;
+            padding: 24px;
+            margin-left: 24px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(1.2, 1.2, 1.2, 1.2);
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: cornflowerblue;
+            color: black;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body> 
+    <div>
+<button class= "menu-button" oneclick="toggleSidebar()"> ☰ MENU</button>
+<div/>
+
+  
+        <nav class="sidebar" id="sidebar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+<header>
+  <h1> LOVE SITE</h1>
+   <h2>Love is Universal , Love is Unconditional, Love About Sacrifices</h2>
+    </header>
+    <header>
+        <img src="Love.jpg"/>
+    </header>
+        <main>
+            <section>
+                <h2>DOES LOVE EXIST IN DIFFERENT WAYS? </h2>
+                <p>In love it will definitly exist in various ways ,because it will never matter your gender identity but it will defintily through the feeling, emotions and conection toward each other!.</p>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2024 Website</p>
+    </footer>
+<script>
+   function toggleSidebar(){
+      var sidebar=document.getElementById(loveSidebar");
+sidebar.classList.toggle("active");
+}
+</script>
+</body>
+</html>
